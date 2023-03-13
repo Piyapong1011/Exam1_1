@@ -109,7 +109,7 @@ namespace Exam1{
             //south
             else if (p1x == p2x && p1y > p2y){
                 if (p2tey > p1bey){
-                    high = p2tey - p1tey;
+                    high = p2tey - p1bey;
                     if (p1w > p2w){
                         wide = p2w * 2;
                         if (wide * high > 8){
