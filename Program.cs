@@ -246,6 +246,7 @@ namespace Exam1{
                     Console.WriteLine("No Overlapping");
                 }
             }
+            //middle
             else if (p1x == p2x && p1y == p2y){
                 if (p1w > p2w){
                     if (p1h > p2h){
