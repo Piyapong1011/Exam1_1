@@ -108,7 +108,7 @@ namespace Exam1{
             }
             //south
             else if (p1x == p2x && p1y > p2y){
-                if (p2tey > p1tey){
+                if (p2tey > p1bey){
                     high = p2tey - p1tey;
                     if (p1w > p2w){
                         wide = p2w * 2;
@@ -143,7 +143,7 @@ namespace Exam1{
                 }
             }
             //south west
-            else if (p1x > p2x && p1y < p2y){
+            else if (p1x > p2x && p1y > p2y){
                 if (p2rex > p1lex && p2tey > p1bey){
                     wide = p2rex - p1lex;
                     high = p2tey - p1bey;
